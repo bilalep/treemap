@@ -84,6 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [TreeNode.leaf(value: 15)],
                 options: TreeNodeOptions(
                   color: Colors.blue,
+                  borderRadius: BorderRadius.circular(16),
                 ),
               ),
             ],

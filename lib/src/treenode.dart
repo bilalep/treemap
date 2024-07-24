@@ -92,10 +92,13 @@ class TreeNodeOptions {
   final Widget? child;
   GestureTapCallback? onTap;
 
+  BorderRadiusGeometry? borderRadius;
+
   TreeNodeOptions({
     this.color,
     this.border,
     this.child,
     this.onTap,
+    this.borderRadius,
   });
 }

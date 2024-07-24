@@ -43,6 +43,7 @@ class TreeMapLayout extends StatelessWidget {
                                 width: 1,
                                 color: Colors.black,
                               ),
+                          borderRadius: node.options?.borderRadius,
                         ),
                         child: node.options?.child,
                       ),
